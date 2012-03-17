@@ -12,10 +12,11 @@ Install
 $ git clone https://github.com/heavensehell/sunzi-sudo.git
 ```
 
-Sunzi-sudo depends on Python Fabric.
+Sunzi-sudo depends on Python Fabric and PyYAML.
 
 ```bash
 $ sudo pip install fabric
+$ sudo pip install PyYAML
 ```
 
 Usage
