@@ -33,12 +33,12 @@ $ fab sunzi:bundle,foo@example.com
 Deploy to multipul hosts.
 
 ```bash
-$ fab sunzi:bundle,user=foo -H 1.example.com 2.example.com
+$ fab sunzi:bundle,user=foo -H a.example.com b.example.com
 ```
 
-This command deploys to `foo@1.example.com` and `foo@2.example.com`.
+This command deploys to `foo@a.example.com` and `foo@b.example.com`.
 
-You can also write following.
+You can also type following.
 
 ```bash
 $ fab sunzi:bundle -u foo -H 1.example.com 2.example.com
