@@ -24,7 +24,7 @@ Usage
 $ fab sunzi:foo@example.com
 ```
 
-If you use [Bundle](https://github.com/bundle), you can add bundle option.
+If you use [Bundler](http://gembundler.com/), you can add bundle option.
 
 ```bash
 $ fab sunzi:bundle,foo@example.com
